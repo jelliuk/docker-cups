@@ -39,23 +39,24 @@ for a future build to resolve.
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
-<!-- FINDINGS-HASH:PRODUCTION:551efec17d634648abe11ef30afd81aab9e5cad26ee01b8248724e0701e43274 -->
+<!-- FINDINGS-HASH:PRODUCTION:b1b91fdf2ae77fa30b8540a59d3b4d17b206715c80094f9f9c6c57adec2f1367 -->
 ## Production branch (master)
 
 | Field | Value |
 |---|---|
 | Branch | `master` |
-| Workflow run | [33464719439](https://github.com/jelliuk/docker-cups/actions/runs/33464719439) |
-| Commit | `62f26bc69f97430157646afc6668b92a04ada8df` |
-| Scanned | 2026-09-01 03:03 UTC |
+| Workflow run | [34733437405](https://github.com/jelliuk/docker-cups/actions/runs/34733437405) |
+| Commit | `99af52753bddd28b49c372d154b43e57005c85d0` |
+| Scanned | 2026-09-13 02:36 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 27 |
+| Findings count | 39 |
 
 | CVE | Package | Installed | Fixed | Severity |
 |---|---|---|---|---|
 | CVE-2026-53612 | bsdutils | 1:2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | bsdutils | 1:2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | bsdutils | 1:2.41-5 | 2.41.5-0+deb13u1 | HIGH |
+| CVE-2026-41992 | gzip | 1.13-1 | 1.13-1+deb13u1 | HIGH |
 | CVE-2026-53612 | libblkid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | libblkid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | libblkid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
@@ -65,9 +66,13 @@ for a future build to resolve.
 | CVE-2026-53612 | libmount1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | libmount1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | libmount1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
+| CVE-2026-86145 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
+| CVE-2026-89161 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
 | CVE-2026-53612 | libsmartcols1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | libsmartcols1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | libsmartcols1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
+| CVE-2026-11822 | libsqlite3-0 | 3.46.1-7+deb13u1 | 3.46.1-7+deb13u2 | HIGH |
+| CVE-2026-11824 | libsqlite3-0 | 3.46.1-7+deb13u1 | 3.46.1-7+deb13u2 | HIGH |
 | CVE-2026-53612 | libuuid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | libuuid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | libuuid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
@@ -77,6 +82,13 @@ for a future build to resolve.
 | CVE-2026-53612 | mount | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | mount | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | mount | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
+| CVE-2026-13221 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | CRITICAL |
+| CVE-2026-42496 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | CRITICAL |
+| CVE-2026-8376 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | CRITICAL |
+| CVE-2026-42497 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
+| CVE-2026-48962 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
+| CVE-2026-57432 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
+| CVE-2026-57433 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
 | CVE-2026-53612 | util-linux | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | util-linux | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | util-linux | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
