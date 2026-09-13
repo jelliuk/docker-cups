@@ -10,19 +10,32 @@ are available upstream at build time, and anything outstanding is tracked here
 for a future build to resolve.
 
 <!-- SECTION:DEVELOPMENT:START -->
-<!-- FINDINGS-HASH:DEVELOPMENT:9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa -->
+<!-- FINDINGS-HASH:DEVELOPMENT:9dbe0620d0f97247a2b76079a8c9a4ef8015fd64d2d39d9daaeef6222e34920e -->
 ## Development branch
 
 | Field | Value |
 |---|---|
 | Branch | `development` |
-| Workflow run | [33155315106](https://github.com/jelliuk/docker-cups/actions/runs/33155315106) |
-| Commit | `62623099244851d06b28dcc5e861825e9bf8cf75` |
-| Scanned | 2026-08-28 08:27 UTC |
+| Workflow run | [34733327463](https://github.com/jelliuk/docker-cups/actions/runs/34733327463) |
+| Commit | `391acde4300f091c1e3f462ea051fa727418ec65` |
+| Scanned | 2026-09-13 02:35 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 0 |
+| Findings count | 12 |
 
-✅ No outstanding fixable CRITICAL/HIGH vulnerabilities at time of build.
+| CVE | Package | Installed | Fixed | Severity |
+|---|---|---|---|---|
+| CVE-2026-41992 | gzip | 1.13-1 | 1.13-1+deb13u1 | HIGH |
+| CVE-2026-86145 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
+| CVE-2026-89161 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
+| CVE-2026-11822 | libsqlite3-0 | 3.46.1-7+deb13u1 | 3.46.1-7+deb13u2 | HIGH |
+| CVE-2026-11824 | libsqlite3-0 | 3.46.1-7+deb13u1 | 3.46.1-7+deb13u2 | HIGH |
+| CVE-2026-13221 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | CRITICAL |
+| CVE-2026-42496 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | CRITICAL |
+| CVE-2026-8376 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | CRITICAL |
+| CVE-2026-42497 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
+| CVE-2026-48962 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
+| CVE-2026-57432 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
+| CVE-2026-57433 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
