@@ -40,17 +40,17 @@ for a future build to resolve.
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
-<!-- FINDINGS-HASH:PRODUCTION:b1b91fdf2ae77fa30b8540a59d3b4d17b206715c80094f9f9c6c57adec2f1367 -->
+<!-- FINDINGS-HASH:PRODUCTION:abdb377f93c1a38df6eb0f553a713c352b2a02d4e7bd6c35e399020e753f81b6 -->
 ## Production branch (master)
 
 | Field | Value |
 |---|---|
 | Branch | `master` |
-| Workflow run | [34733437405](https://github.com/jelliuk/docker-cups/actions/runs/34733437405) |
-| Commit | `99af52753bddd28b49c372d154b43e57005c85d0` |
-| Scanned | 2026-09-13 02:36 UTC |
+| Workflow run | [35176076383](https://github.com/jelliuk/docker-cups/actions/runs/35176076383) |
+| Commit | `1bc4b876437258e3b3e8e5930f8f76041fcab093` |
+| Scanned | 2026-09-17 02:54 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 39 |
+| Findings count | 40 |
 
 | CVE | Package | Installed | Fixed | Severity |
 |---|---|---|---|---|
@@ -68,6 +68,7 @@ for a future build to resolve.
 | CVE-2026-53613 | libmount1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | libmount1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-86145 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
+| CVE-2026-89157 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
 | CVE-2026-89161 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
 | CVE-2026-53612 | libsmartcols1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | libsmartcols1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
