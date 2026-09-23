@@ -10,33 +10,19 @@ are available upstream at build time, and anything outstanding is tracked here
 for a future build to resolve.
 
 <!-- SECTION:DEVELOPMENT:START -->
-<!-- FINDINGS-HASH:DEVELOPMENT:2c67bdbf05aa267a99253a454a8c81623947d9f75b95fbe9f061f42ca51b098f -->
+<!-- FINDINGS-HASH:DEVELOPMENT:9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa -->
 ## Development branch
 
 | Field | Value |
 |---|---|
 | Branch | `development` |
-| Workflow run | [35175947566](https://github.com/jelliuk/docker-cups/actions/runs/35175947566) |
-| Commit | `1bc4b876437258e3b3e8e5930f8f76041fcab093` |
-| Scanned | 2026-09-17 02:52 UTC |
+| Workflow run | [35811742751](https://github.com/jelliuk/docker-cups/actions/runs/35811742751) |
+| Commit | `bbcd08a4004db0c17f0abcd3089a8482b9892156` |
+| Scanned | 2026-09-23 02:49 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 13 |
+| Findings count | 0 |
 
-| CVE | Package | Installed | Fixed | Severity |
-|---|---|---|---|---|
-| CVE-2026-41992 | gzip | 1.13-1 | 1.13-1+deb13u1 | HIGH |
-| CVE-2026-86145 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
-| CVE-2026-89157 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
-| CVE-2026-89161 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
-| CVE-2026-11822 | libsqlite3-0 | 3.46.1-7+deb13u1 | 3.46.1-7+deb13u2 | HIGH |
-| CVE-2026-11824 | libsqlite3-0 | 3.46.1-7+deb13u1 | 3.46.1-7+deb13u2 | HIGH |
-| CVE-2026-13221 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | CRITICAL |
-| CVE-2026-42496 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | CRITICAL |
-| CVE-2026-8376 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | CRITICAL |
-| CVE-2026-42497 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
-| CVE-2026-48962 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
-| CVE-2026-57432 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
-| CVE-2026-57433 | perl-base | 5.40.1-6 | 5.40.1-6+deb13u1 | HIGH |
+✅ No outstanding fixable CRITICAL/HIGH vulnerabilities at time of build.
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
