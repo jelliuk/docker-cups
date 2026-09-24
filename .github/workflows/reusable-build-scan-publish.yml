@@ -93,7 +93,7 @@ jobs:
 
       # ── Build (scan target — single platform, loaded locally for Trivy) ───────
       - name: Build image for scanning
-        uses: docker/build-push-action@v7.3.0
+        uses: docker/build-push-action@v7.4.0
         with:
           context: .
           load: true
@@ -480,7 +480,7 @@ jobs:
       # Single platform (linux/amd64) — matches the scan-target build above.
       - name: Build and push
         id: build
-        uses: docker/build-push-action@v7.3.0
+        uses: docker/build-push-action@v7.4.0
         with:
           context: .
           push: true

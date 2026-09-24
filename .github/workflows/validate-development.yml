@@ -39,7 +39,7 @@ jobs:
       # this is normally close to instant. No cache-to: this run shouldn't
       # be the one paying to (re)populate the cache.
       - name: Build image
-        uses: docker/build-push-action@v7.3.0
+        uses: docker/build-push-action@v7.4.0
         with:
           context: .
           cache-from: type=gha
