@@ -10,19 +10,21 @@ are available upstream at build time, and anything outstanding is tracked here
 for a future build to resolve.
 
 <!-- SECTION:DEVELOPMENT:START -->
-<!-- FINDINGS-HASH:DEVELOPMENT:9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa -->
+<!-- FINDINGS-HASH:DEVELOPMENT:627d0ffb877e564aae5a326bbf854d924864e24ef97f9f46f7657b44117a4c88 -->
 ## Development branch
 
 | Field | Value |
 |---|---|
 | Branch | `development` |
-| Workflow run | [35811742751](https://github.com/jelliuk/docker-cups/actions/runs/35811742751) |
-| Commit | `bbcd08a4004db0c17f0abcd3089a8482b9892156` |
-| Scanned | 2026-09-23 02:49 UTC |
+| Workflow run | [36810914806](https://github.com/jelliuk/docker-cups/actions/runs/36810914806) |
+| Commit | `9fc1c5cb891e14e02349b8ec46a489f694db7567` |
+| Scanned | 2026-10-01 03:33 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 0 |
+| Findings count | 1 |
 
-✅ No outstanding fixable CRITICAL/HIGH vulnerabilities at time of build.
+| CVE | Package | Installed | Fixed | Severity |
+|---|---|---|---|---|
+| CVE-2026-103111 | libpcre2-8-0 | 10.46-1~deb13u2 | 10.46-1~deb13u3 | HIGH |
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
