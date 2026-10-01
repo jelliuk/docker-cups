@@ -28,17 +28,17 @@ for a future build to resolve.
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
-<!-- FINDINGS-HASH:PRODUCTION:abdb377f93c1a38df6eb0f553a713c352b2a02d4e7bd6c35e399020e753f81b6 -->
+<!-- FINDINGS-HASH:PRODUCTION:ef684b3a6c9d2a37e8ef5df3028934953e529655a900477e66de6a0cce0bb9d6 -->
 ## Production branch (master)
 
 | Field | Value |
 |---|---|
 | Branch | `master` |
-| Workflow run | [35176076383](https://github.com/jelliuk/docker-cups/actions/runs/35176076383) |
-| Commit | `1bc4b876437258e3b3e8e5930f8f76041fcab093` |
-| Scanned | 2026-09-17 02:54 UTC |
+| Workflow run | [36811104198](https://github.com/jelliuk/docker-cups/actions/runs/36811104198) |
+| Commit | `15d4b2d1d92e44a30a2b40b5ef994c06c8c936ad` |
+| Scanned | 2026-10-01 03:35 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 40 |
+| Findings count | 41 |
 
 | CVE | Package | Installed | Fixed | Severity |
 |---|---|---|---|---|
@@ -55,6 +55,7 @@ for a future build to resolve.
 | CVE-2026-53612 | libmount1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | libmount1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | libmount1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
+| CVE-2026-103111 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u3 | HIGH |
 | CVE-2026-86145 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
 | CVE-2026-89157 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
 | CVE-2026-89161 | libpcre2-8-0 | 10.46-1~deb13u1 | 10.46-1~deb13u2 | HIGH |
