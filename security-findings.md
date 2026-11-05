@@ -29,25 +29,27 @@ for a future build to resolve.
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
-<!-- FINDINGS-HASH:PRODUCTION:16f0b6a6355428f32881737ce61182a4f2f59982b453c3462dd601dcdd5a9919 -->
+<!-- FINDINGS-HASH:PRODUCTION:a03384d2bdf62fbce69059f669501aa8f62594cfdac2bc334bf243526d880b5e -->
 ## Production branch (master)
 
 | Field | Value |
 |---|---|
 | Branch | `master` |
-| Workflow run | [38841611095](https://github.com/jelliuk/docker-cups/actions/runs/38841611095) |
-| Commit | `9710ce98464ceae126d5a2ed9301b6498864e2b2` |
-| Scanned | 2026-10-16 02:41 UTC |
+| Workflow run | [41969305616](https://github.com/jelliuk/docker-cups/actions/runs/41969305616) |
+| Commit | `3804a1fe9f3138f3b8be96e2be8e5e5ba11f85e4` |
+| Scanned | 2026-11-05 04:42 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 50 |
+| Findings count | 52 |
 
 | CVE | Package | Installed | Fixed | Severity |
 |---|---|---|---|---|
+| CVE-2026-109518 | apt | 3.0.3 | 3.0.4 | HIGH |
 | CVE-2026-53612 | bsdutils | 1:2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | bsdutils | 1:2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | bsdutils | 1:2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53615 | bsdutils | 1:2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-41992 | gzip | 1.13-1 | 1.13-1+deb13u1 | HIGH |
+| CVE-2026-109518 | libapt-pkg7.0 | 3.0.3 | 3.0.4 | HIGH |
 | CVE-2026-53612 | libblkid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | libblkid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | libblkid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
