@@ -10,19 +10,22 @@ are available upstream at build time, and anything outstanding is tracked here
 for a future build to resolve.
 
 <!-- SECTION:DEVELOPMENT:START -->
-<!-- FINDINGS-HASH:DEVELOPMENT:9a271f2a916b0b6ee6cecb2426f0b3206ef074578be55d9bc94f6f3fe3ab86aa -->
+<!-- FINDINGS-HASH:DEVELOPMENT:5f365cfbd5572402b2059fcbd39014185a85408fa7900a8c46e741aebcf3cef6 -->
 ## Development branch
 
 | Field | Value |
 |---|---|
 | Branch | `development` |
-| Workflow run | [38021754274](https://github.com/jelliuk/docker-cups/actions/runs/38021754274) |
-| Commit | `98185177fad49f68e78c0bfa05acace5204c8b65` |
-| Scanned | 2026-10-10 03:48 UTC |
+| Workflow run | [41969057984](https://github.com/jelliuk/docker-cups/actions/runs/41969057984) |
+| Commit | `9e5ba22f58d06988c3ee6ecc914a92c9246783d3` |
+| Scanned | 2026-11-05 04:40 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 0 |
+| Findings count | 2 |
 
-✅ No outstanding fixable CRITICAL/HIGH vulnerabilities at time of build.
+| CVE | Package | Installed | Fixed | Severity |
+|---|---|---|---|---|
+| CVE-2026-109518 | apt | 3.0.3 | 3.0.4 | HIGH |
+| CVE-2026-109518 | libapt-pkg7.0 | 3.0.3 | 3.0.4 | HIGH |
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
