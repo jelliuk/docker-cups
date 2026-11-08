@@ -10,22 +10,24 @@ are available upstream at build time, and anything outstanding is tracked here
 for a future build to resolve.
 
 <!-- SECTION:DEVELOPMENT:START -->
-<!-- FINDINGS-HASH:DEVELOPMENT:5f365cfbd5572402b2059fcbd39014185a85408fa7900a8c46e741aebcf3cef6 -->
+<!-- FINDINGS-HASH:DEVELOPMENT:486d189fa66f1f3193597227f00a921397ae8e70adf973ab4a0b9869e405da7d -->
 ## Development branch
 
 | Field | Value |
 |---|---|
 | Branch | `development` |
-| Workflow run | [41969057984](https://github.com/jelliuk/docker-cups/actions/runs/41969057984) |
-| Commit | `9e5ba22f58d06988c3ee6ecc914a92c9246783d3` |
-| Scanned | 2026-11-05 04:40 UTC |
+| Workflow run | [42444215943](https://github.com/jelliuk/docker-cups/actions/runs/42444215943) |
+| Commit | `16331c4cfde62c6347534e981245f489349b5b33` |
+| Scanned | 2026-11-08 03:49 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 2 |
+| Findings count | 4 |
 
 | CVE | Package | Installed | Fixed | Severity |
 |---|---|---|---|---|
 | CVE-2026-109518 | apt | 3.0.3 | 3.0.4 | HIGH |
 | CVE-2026-109518 | libapt-pkg7.0 | 3.0.3 | 3.0.4 | HIGH |
+| CVE-2026-76844 | zlib1g | 1:1.3.dfsg+really1.3.1-1+b1 | 1:1.3.dfsg+really1.3.1-1+deb13u1 | HIGH |
+| CVE-2026-85091 | zlib1g | 1:1.3.dfsg+really1.3.1-1+b1 | 1:1.3.dfsg+really1.3.1-1+deb13u1 | HIGH |
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
