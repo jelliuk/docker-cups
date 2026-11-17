@@ -28,17 +28,17 @@ for a future build to resolve.
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
-<!-- FINDINGS-HASH:PRODUCTION:0a8c061dedb51a7c53c81276fa6047f629936789f73d1c8625b286fd2b1003a4 -->
+<!-- FINDINGS-HASH:PRODUCTION:a0949c39d53e1ebb86f9d49dab1e4d1225a3c9cf53613413296a863410209236 -->
 ## Production branch (master)
 
 | Field | Value |
 |---|---|
 | Branch | `master` |
-| Workflow run | [42444384744](https://github.com/jelliuk/docker-cups/actions/runs/42444384744) |
-| Commit | `bc9a0155d86cfa42078a755269538e884572aaed` |
-| Scanned | 2026-11-08 03:52 UTC |
+| Workflow run | [44028129355](https://github.com/jelliuk/docker-cups/actions/runs/44028129355) |
+| Commit | `c930e8adbe99fb89f468984ebc7780727a93e0ff` |
+| Scanned | 2026-11-17 06:02 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 54 |
+| Findings count | 53 |
 
 | CVE | Package | Installed | Fixed | Severity |
 |---|---|---|---|---|
@@ -94,6 +94,5 @@ for a future build to resolve.
 | CVE-2026-53613 | util-linux | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | util-linux | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53615 | util-linux | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
-| CVE-2026-76844 | zlib1g | 1:1.3.dfsg+really1.3.1-1+b1 | 1:1.3.dfsg+really1.3.1-1+deb13u1 | HIGH |
 | CVE-2026-85091 | zlib1g | 1:1.3.dfsg+really1.3.1-1+b1 | 1:1.3.dfsg+really1.3.1-1+deb13u1 | HIGH |
 <!-- SECTION:PRODUCTION:END -->
