@@ -29,17 +29,17 @@ for a future build to resolve.
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
-<!-- FINDINGS-HASH:PRODUCTION:a0949c39d53e1ebb86f9d49dab1e4d1225a3c9cf53613413296a863410209236 -->
+<!-- FINDINGS-HASH:PRODUCTION:007a7240c729d677a7e94b6bb3c46155f8532254965090a4041a1f2dc11d0d69 -->
 ## Production branch (master)
 
 | Field | Value |
 |---|---|
 | Branch | `master` |
-| Workflow run | [44028129355](https://github.com/jelliuk/docker-cups/actions/runs/44028129355) |
-| Commit | `c930e8adbe99fb89f468984ebc7780727a93e0ff` |
-| Scanned | 2026-11-17 06:02 UTC |
+| Workflow run | [45767765759](https://github.com/jelliuk/docker-cups/actions/runs/45767765759) |
+| Commit | `50b850a5a300d5fe54bd06ecdd1fbf94899711ac` |
+| Scanned | 2026-11-26 06:23 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 53 |
+| Findings count | 54 |
 
 | CVE | Package | Installed | Fixed | Severity |
 |---|---|---|---|---|
@@ -76,6 +76,7 @@ for a future build to resolve.
 | CVE-2026-53613 | libuuid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | libuuid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53615 | libuuid1 | 2.41-5 | 2.41.5-0+deb13u1 | HIGH |
+| CVE-2026-124851 | libzstd1 | 1.5.7+dfsg-1 | 1.5.7+dfsg-1+deb13u1 | HIGH |
 | CVE-2026-53612 | login | 1:4.16.0-2+really2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53613 | login | 1:4.16.0-2+really2.41-5 | 2.41.5-0+deb13u1 | HIGH |
 | CVE-2026-53614 | login | 1:4.16.0-2+really2.41-5 | 2.41.5-0+deb13u1 | HIGH |
