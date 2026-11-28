@@ -10,22 +10,21 @@ are available upstream at build time, and anything outstanding is tracked here
 for a future build to resolve.
 
 <!-- SECTION:DEVELOPMENT:START -->
-<!-- FINDINGS-HASH:DEVELOPMENT:930d006ad78fa4d432b8fb5b6baf0eea3f8808334df17c0656504bc7cddcced9 -->
+<!-- FINDINGS-HASH:DEVELOPMENT:cb37c885e88205a9b650c0367056e4753139003f041f41860ae5cc8bb793365c -->
 ## Development branch
 
 | Field | Value |
 |---|---|
 | Branch | `development` |
-| Workflow run | [45767449556](https://github.com/jelliuk/docker-cups/actions/runs/45767449556) |
-| Commit | `a5d5896f8bb6fb060a6d2eaf2e319ee04fbc87e9` |
-| Scanned | 2026-11-26 06:21 UTC |
+| Workflow run | [46113836999](https://github.com/jelliuk/docker-cups/actions/runs/46113836999) |
+| Commit | `c5ce7d0fedc5e594542bc51367f5a1b674873764` |
+| Scanned | 2026-11-28 05:51 UTC |
 | Severity scope | CRITICAL, HIGH (fixable only) |
-| Findings count | 2 |
+| Findings count | 1 |
 
 | CVE | Package | Installed | Fixed | Severity |
 |---|---|---|---|---|
 | CVE-2026-124851 | libzstd1 | 1.5.7+dfsg-1 | 1.5.7+dfsg-1+deb13u1 | HIGH |
-| CVE-2026-85091 | zlib1g | 1:1.3.dfsg+really1.3.1-1+b1 | 1:1.3.dfsg+really1.3.1-1+deb13u1 | HIGH |
 <!-- SECTION:DEVELOPMENT:END -->
 
 <!-- SECTION:PRODUCTION:START -->
